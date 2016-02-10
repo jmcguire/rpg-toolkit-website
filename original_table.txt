@@ -1,0 +1,220 @@
+number: 1-3
+faction: Baron Fryr of Drakehold
+relationship: ...signs a trade treaty with...[Roll once on Faction column] causing ...[Roll once on Consequence column].
+consequence: ...bandit activity on borders of first Faction’s territory.
+
+number: 4-6
+faction: Baron Kraus of Leffenmark 
+relationship: ...closes roads against travellers coming from...[Roll once on Faction column] causing ...[Roll twice on Consequence column].
+consequence: ...prices of first Faction’s exports rise in surrounding regions.
+
+number: 7-10
+faction: Baron Odern of Khelistead
+relationship: ...signs an alliance covenant with...[Roll twice on Faction column] causing ...[Roll three times on Consequence column].
+consequence: ...prices of second Faction’s exports rise in first Faction’s region.
+
+number: 11-14
+faction: Baron Vlad of Eisenhaus
+relationship: ...signs a treaty with...[Roll once on Faction column] causing ...[Roll once on Consequence column].
+consequence: ...a Relationship shift between second Faction and ...[Roll once on Faction column].
+
+number: 15-18
+faction: Baroness Delphine of Auldorf
+relationship: ...establishes a foothold in the territory of ...[Roll once on Faction column] causing ...[Roll twice on Consequence column].
+consequence: ...value of first Faction’s currency is halved, causing dramatic drop in trade between first Faction and surrounding regions.
+
+number: 19-22
+faction: Baroness Joselyn of Kellinhaven
+relationship: ...restricts trade on all borders, adding an additional 2d8gp tax per ton of cargo causing ...[Roll once on Consequence column].
+consequence: ...a rebellion sparks within second Faction’s territory.
+
+number: 23-26
+faction: Baroness Pheira of Ivanstead
+relationship: ...restricts trade on 1d4 borders, adding an additional 2d8gp tax per ton of cargo causing ...[Roll once on Consequence column].
+consequence: ...hostilities develop between second Faction and ...[Roll once on Faction column].
+
+number: 26-29
+faction: Clan Grogfist
+relationship: ...doubles import tariffs on merchants coming from...[Roll once on Faction column] causing ...[Roll twice on Consequence column].
+consequence: ...the first glimmers of a civil war are seen in the first Faction’s territory, splitting the populace in half.
+
+number: 30-32
+faction: Cloister of Eulogy
+relationship: ...allies with ...[Roll once on Faction column] against ...[Roll once on Faction column] causing ...[Roll twice on Consequence column].
+consequence: ...bandit activity on borders of second Faction’s region.
+
+number: 33
+faction: Dragon Isles Privateers
+relationship: ...establishes embassy in territory of ...[Roll once on Faction column] causing ...[Roll once on Consequence column].
+consequence: ...value of first Faction’s currency is doubled, causing dramatic rise in trade between first Faction and surrounding regions.
+
+number: 34
+faction: Dragon Priesthood of Gallowbrook
+relationship: ...dispatches armed forces into territory of ...[Roll once on Faction column] causing ...[Roll once on Consequence column].
+consequence: ...armed hostilities break out on borders between first Faction and ...[Roll once on Faction column].
+
+number: 35-38
+faction: Duchess Pike of Dramberg
+relationship: ...closes embassy in territory of ...[Roll once on Faction column] due to ...[Roll once on Consequence column].
+consequence: ...arms and armour trade between the first Faction and their allies increases.
+
+number: 39-41
+faction: Dwarven Sovereignty of Nizmak
+relationship: ...grants land to ....[Roll once on Faction column] causing ...[Roll once on Consequence column].
+consequence: ...all trade between first Faction and surrounding regions grinds to a halt.
+
+number: 42-45
+faction: Elves of the Northern Reaches
+relationship: ...annexes land belonging to ...[Roll once on Faction column] causing ...[Roll once on Consequence column].
+consequence: ...a rebellion sparks within first Faction’s territory.
+
+number: 46
+faction: Faithful of Leviathan
+relationship: ...waives import tariffs on merchants coming from...[Roll once on Faction column] causing ...[Roll once on Consequence column].
+consequence: ...trade in the regions surround first Faction increases, particularly bolstering the coffers of ...[Roll once on the Faction column].
+
+number: 47-49
+faction: First Temple of the Chorus
+relationship: ...recruits a treasured agent or courtier of ...[Roll once on Faction column] causing ...[Roll once on Consequence column].
+consequence: ...arms and armour trade between the first Faction and their allies decreases.
+
+number: 50-52
+faction: Five Great Families 
+relationship: ...loses a treasured agent or courtier to ...[Roll once on Faction column] due to ...[Roll once on Consequence column].
+consequence: ...crime increases in the second Faction’s territory, robberies in particular against individuals sympathetic to first Faction.
+
+number: 53
+faction: Freidwarrow Clans
+relationship: ...incurs a debt of 1d20 x 1000gp to ...[Roll once on Faction column].
+consequence: ...trade between first Faction and ...[Roll once on Faction column] prospers, whilst trade from ...[Roll once on Faction column] grinds to a halt.
+
+number: 54-58
+faction: Great House D’lar
+relationship: ...signs armistice treaty with ...[Roll once on Faction column].
+consequence: ...the peasants rejoice.
+
+number: 59-60
+faction: Great House Galonodel
+relationship: ...plans the assassination of the leading figure(s) of ...[Roll once on Faction column], with a 25% chance of success.
+consequence: ...[Roll once on Faction column] and ...[Roll once Faction column] swear emnity on first Faction,
+
+number: 61-62
+faction: Great House Morkai of Valeoth
+relationship: ...embargoes the main export of ...[Roll once on Faction column] causing ...[Roll once on Consequence column].
+consequence: ...all alliances between the first Faction and their allies are withdrawn.
+
+number: 63-64
+faction: Guild of Artisans
+relationship: ...invades territory of ...[Roll once on Faction column] causing ...[Roll once on Consequence column].
+consequence: ...all alliances between the first Faction and their allies are bolstered, granting them 1d10x1000gp in goods and personnel.
+
+number: 65-66
+faction: Guild of Carpenters
+relationship: ...publicly denounces ...[Roll once on Faction column] to their allies, causing ... [Roll once on Consequence column].
+consequence: ...all hostilities against the first Faction are withdrawn.
+
+number: 67-68
+faction: Guild of Merchants
+relationship: ...introduces new export to...[Roll once on Faction column] causing ...[Roll once on Consequence column].
+consequence: ...diplomatic staff employed by the first Faction are withdrawn back to their territory.
+
+number: 69-70
+faction: Guild of Smiths
+relationship: ...denies export to...[Roll once on Faction column] causing ...[Roll once on Consequence column].
+consequence: ...an embargo against adventurers, mercenaries and other similar service providers is enforced throughout the first Faction’s territory.
+
+number: 71
+faction: Holy Sceptre of the God King
+relationship: ...experiences an influx of refugees or immigrants from ...[Roll once on Faction column] causing ...[Roll once on Consequence column].
+consequence: ...military personnel employed by the first Faction are withdrawn back to their territory.
+
+number: 72-74
+faction: House Dellion of Amaldin
+relationship: ...blocks travel between...[Roll twice on Faction column] causing ...[Roll once on Consequence column].
+consequence: ...Charter fees for adventurers, mercenaries and similar service providers within the first Faction’s territory are waived for 1d4 months.
+
+number: 75
+faction: House Dion of Worthe
+relationship: ...sends officials past borders of ...[Roll once on Faction column]. with 25% chance of causing ...[Roll once on Consequence column].
+consequence: ...camps of refugees from first Faction begin to form on surrounding borders as 1d10% of citizens leave the region.
+
+number: 76-77
+faction: House Grennen of the Northern Kingdoms
+relationship: ...sends Declaration of War to ...[Roll once on Faction column], causing ...[Roll once on Consequence column].
+consequence: ....fights break out on the streets of the first Faction’s territory, public order becomes but a distant memory.
+
+number: 78
+faction: House Merle of the Northern Kingdoms
+relationship: ...sends Declaration of War to ...[Roll twice on Faction column]. causing ...[Roll twice on Consequence column].
+consequence: ...martial law is declared within the first Faction’s territory, with loyal soldiers patrolling the streets and enforcing the law with an iron fist.
+
+number: 79
+faction: House Strielm of Morwald
+relationship: ...foments rebellion amongst the populace of ...[Roll once on Faction column] causing ...[Roll twice on Consequence column].
+consequence: ...the first Faction pushes a new export into trade in the surrounding regions, with a 50% chance of succeeding to turn a profit.
+
+number: 80-81
+faction: House Targh of the Northern Kingdoms
+relationship: ...enters into a favourable marriage alliance with ...[Roll once on Faction column] causing ...[Roll twice on Consequences column, pick most favourable result].
+consequence: ...roll again. Twice.
+
+number: 82-83
+faction: House Vesci of Amaldin
+relationship: ...enters into an unfavourable marriage alliance with ...[Roll once on Faction column] causing ...[Roll twice on Consequences column, pick most unfavourable result].
+consequence: ...all clothing fashions in the first Faction’s territory are abandoned. Entire wardrobes are thrown into the streets, hat sellers are bankrupted, suddenly no-one has the need for riding boots anymore. It’s chaos, I tell you, chaos.
+
+number: 84-85
+faction: House Wellsmere of Adensea
+relationship: ...sends aid in the form of money, goods or personnel to ...[Roll once on Faction column] causing ...[Roll twice on Consequences column, and pick most favourable result].
+consequence: ...nothing happens.
+
+number: 86
+faction: Local Guild (Within territory belonging to ...[Roll again on Faction column])
+relationship: ....enters into alliance with ...[Roll Twice on Faction column] against ...[Roll once on Faction column] causing ....[Roll twice on Consequences column].
+consequence: ...a minor revolt between citizens occurs within the first Faction’s territory.
+
+number: 87-88
+faction: Magisters of Amaldin
+relationship: ...dismisses current ambassador to ...[Roll once on Faction column] and replaces them, causing ...[Roll once on Consequence column].
+consequence: ...a general conscription is planned in the first Faction’s territory, enlisting 1d6 x 10% of citizens of appropriate age and fitness.
+
+number: 89-90
+faction: Miithan Church
+relationship: ...introduces an additional levy tax of 1d10sp per month on emigrants from ...[Roll once on Faction column] causing ...[Roll twice on Consequence column]. 
+consequence: ...the first Faction’s leader has a commemorative statue built within their capital.
+
+number: 91
+faction: Northern Kingdoms Rebels
+relationship: ...sends a gift worth 2d10 x 1000gp to ...[Roll once on Faction column] with the hopes of founding an alliance, with a 50% chance of success.
+consequence: ...a parade is planned within the first Faction’s territory, costing 1d20 x 100gp.
+
+number: 92-94
+faction: Reformed Temple of the Chorus
+relationship: ...establishes a truce with any hostile territories for 1d4 months, with a 50% chance of successfully maintaining truce.
+consequence: ...food supplies run dangerously low in the first Faction’s territory.
+
+number: 95
+faction: Rhoneid Society
+relationship: ...plans the assassination of the leading figure(s) of ...[Roll once on Faction column], with a 75% chance of success.
+consequence: ...food supplies are abundant in the first Faction’s territory.
+
+number: 96
+faction: Sanctii Tribes of the Northern Reaches
+relationship: ...manipulates hostilities between ...[Roll twice on Faction column], causing ...[Roll once on Consequence column].
+consequence: ...a representative of the first Faction’s administration is imprisoned for treason and/or embezzlement.
+
+number: 97
+faction: The Free Halflings
+relationship: ...finds one of their agents has sworn a vendetta against the leader(s) of ...[Roll once on Faction column], with 60% chance of encouraging this vendetta. This causes ...[Roll once on Consequence column].
+consequence: ...a diplomatic catastrophe looms, potentially threatening (50% chance) a breakout of hostilities between the first and second Factions.
+
+number: 98-99
+faction: Waymeet Academy
+relationship: ...finds one of their exports has become popular in territory of ...[Roll once on Faction column], bringing in additional revenue to their merchants and causing ...[Roll once on Consequence column].
+consequence: ...the first Faction’s administration is bankrupted, public services and expenditure grinds to a halt. 
+
+number: 100
+faction: Witchkin of Channochaide
+relationship: ...sends spies into territory of ...[Roll once on Faction column] due to ...[Roll once on Consequence column], causing ...[Roll once on Consequence column].
+consequence: ...a 1d4 month tax rebate is granted to adventurers, mercenaries and similar service providers by the first Faction.
+
