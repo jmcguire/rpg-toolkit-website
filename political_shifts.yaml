@@ -6,9 +6,9 @@ meta:
     title: "The Toolkit: Politics: Part One"
     url: "http://www.madadventurers.com/the-toolkit-politics-part-one/"
   generate: 1
-  start: "results"
+  start: "Relationship"
 
-faction:
+Faction:
   - "Baron Fryr of Drakehold"
   - "Baron Kraus of Leffenmark "
   - "Baron Odern of Khelistead"
@@ -54,7 +54,7 @@ faction:
   - "Waymeet Academy"
   - "Witchkin of Channochaide"
 
-relationship:
+Relationship:
   - "[Faction:F1] signs a trade treaty with [Faction:F2] causing [Consequence]."
   - "[Faction:F1] closes roads against travellers coming from [Faction:F2] causing [Consequence] and [Consequence]."
   - "[Faction:F1] signs an alliance covenant with [Faction:F2] and [Faction:F3], causing [Consequence], [Consequence], and [Consequence]."
@@ -82,7 +82,7 @@ relationship:
   - "[Faction:F1] denies export to [Faction:F2] causing [Consequence]."
   - "[Faction:F1] experiences an influx of refugees or immigrants from [Faction:F2] causing [Consequence]."
   - "[Faction:F1] blocks travel between [Faction:F2] and [Faction:F3], causing [Consequence]."
-  - "[Faction:F1] sends officials past borders of [Faction:F2]. with 25% chance of causing [Consequence]."
+  - "[Faction:F1] sends officials past the borders of [Faction:F2], with 25% chance of causing [Consequence]."
   - "[Faction:F1] sends Declaration of War to [Faction:F2], causing [Consequence]."
   - "[Faction:F1] sends Declaration of War to [Faction:F2] and [Faction:F3], causing [Consequence] and [Consequence]."
   - "[Faction:F1] foments rebellion amongst the populace of [Faction:F2] causing [Consequence] and [Consequence]."
@@ -91,7 +91,7 @@ relationship:
   - "[Faction:F1] enters into an unfavourable marriage alliance with [Faction:F2], causing either [Consequence] or [Consequence], whichever is least favourable."
   - "[Faction:F1] sends aid in the form of money, goods or personnel to [Faction:F2], causing either [Consequence] or [Consequence], whichever is more favourable."
   - ""
-  - "[Faction:F1] .enters into alliance with [Faction:F2] and [Faction:F3], against [Faction], causing [Consequence] and [Consequence]."
+  - "[Faction:F1] enters into alliance with [Faction:F2] and [Faction:F3], against [Faction], causing [Consequence] and [Consequence]."
   - "[Faction:F1] dismisses current ambassador to [Faction:F2] and replaces them, causing [Consequence]."
   - "[Faction:F1] introduces an additional levy tax of 1d10sp per month on emigrants from [Faction:F2], causing [Consequence] and [Consequence]. "
   - "[Faction:F1] sends a gift worth 2d10 x 1000gp to [Faction:F2] with the hopes of founding an alliance, with a 50% chance of success."
@@ -102,7 +102,7 @@ relationship:
   - "[Faction:F1] finds one of their exports has become popular in territory of [Faction:F2], bringing in additional revenue to their merchants and causing [Consequence]."
   - "[Faction:F1] sends spies into territory of [Faction:F2] due to [Consequence], causing [Consequence]."
 
-consequence:
+Consequence:
   - "bandit activity on borders of [F1]'s territory"
   - "prices of [F1]'s exports rise in surrounding regions"
   - "prices of [F2]'s exports rise in [F1]'s region"
