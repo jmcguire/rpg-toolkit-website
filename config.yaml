@@ -1,7 +1,12 @@
 meta:
   title: "Political Shifts"
+  copyright:
+    author: "Jay Draper"
+    contact: "@jay_jaydraper"
+    title: "The Toolkit: Politics: Part One"
+    url: "http://www.madadventurers.com/the-toolkit-politics-part-one/"
   generate: 1
-  use: "results"
+  start: "results"
 
 faction:
   - "Baron Fryr of Drakehold"
