@@ -114,7 +114,7 @@ def main(config_file):
   # print out each random selection
   for x in range(tool_config.generate):
     item = tool_config.create()
-    print "%d: %s\n" % (x+1, item)
+    print "%d: %s" % (x+1, item)
 
 def usage(error_msg=''):
   usage_msg = "usage: %s <config_file>" % sys.argv[0]
