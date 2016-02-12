@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-app.py
+rpg-toolkit.py
 
 Generate a random webpage from a config file.
 
