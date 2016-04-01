@@ -50,12 +50,16 @@ class toolkit:
     # create our list results
     result_list = []
     for x in range(tool_config.generate):
-      result_list.append(tool_config.create())
+      result=tool_config.create()
+      result = result.replace("\n", "<br>")
+      result_list.append(result)
 
     # transform the contact info to a url
-    author_url = tool_config.copyright['contact'],
+    author_url = tool_config.copyright['contact']
     if author_url[0] == '@': # check for twitter
       author_url = "https://twitter.com/%s" % author_url[1:]
+    elif author_url.startswith('http'): # basic url
+      pass
     else: # else assume it's an email
       author_url = "mailto:%s" % author_url
 
@@ -118,7 +122,7 @@ width: 1.3em; /* same as padding-left set on li */
 }
 footer {
 margin-top: 2em;
-padding: 2em
+padding: 2em;
 font-size: 0.8em;
 border-top: 1px solid #123;
 color: 123;
