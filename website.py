@@ -3,7 +3,9 @@
 
 import web
 import yaml
-import rpg-toolkit
+import logging
+from string import Template
+import rpgtoolkit
 
 urls = (
   '/',     'index',
@@ -15,11 +17,12 @@ urls = (
 # content are ready to go.
 
 class index:
+  """show a 404, they need to select a config file"""
 
   def __init__(self):
     pass
 
-  def GET(self, file_name):
+  def GET(self):
     """Create a webpage that lists all toolkits available."""
 
     # TODO:
@@ -34,26 +37,27 @@ class index:
 """
 
 class toolkit:
+  """given a config file, generate a random thing from it, and show it"""
 
   def __init__(self):
     self.config = {}
 
   def GET(self, file_name):
-    """Create a webpage using the config file_name.yaml."""
+    """Create a webpage using the config config/$file_name.yaml."""
 
-    tool_config = ToolConfig("config/%s.yaml" % file_name)
+    tool_config = rpgtoolkit.ToolConfig("config/%s.yaml" % file_name)
 
     # create our list results
     result_list = []
     for x in range(tool_config.generate):
-      result_list.push(tool_config.create())
+      result_list.append(tool_config.create())
 
     # transform the contact info to a url
     author_url = tool_config.copyright['contact'],
     if author_url[0] == '@': # check for twitter
       author_url = "https://twitter.com/%s" % author_url[1:]
     else: # else assume it's an email
-      author_url = "mailto:" % author_url
+      author_url = "mailto:%s" % author_url
 
     webpage = Template("""
 <!doctype html>
@@ -112,13 +116,24 @@ display: inline-block;
 margin-left: -1.3em; /* same as padding-left set on li */
 width: 1.3em; /* same as padding-left set on li */
 }
+footer {
+margin-top: 2em;
+padding: 2em
+font-size: 0.8em;
+border-top: 1px solid #123;
+color: 123;
+text-align: center;
+}
+p {
+margin-top: 0.5em;
+}
 </style>
 <h1>$title</h1>
 <ul> $result_list </ul>
 <footer>
-  <p>Content &copy; <a href="$author_url">$author</a>, <em><a href="$source_url">$source</a></em></p>
-  <p>Code &copy; Justin McGuire, <a href="mailto:jm@landedstar.com">jm@landedstar.com</a>, <a href="https://twitter.com/landedstar">@landedstar</a></p>, <a href="https://github.com/jmcguire/rpg-toolkit-website">Find this code on GitHub</a>
-<footer>
+  <p>Content &copy; <a href="$author_url">$author</a>, <em><a href="$source_url">$source_title</a></em></p>
+  <p>Code &copy; Justin McGuire, <a href="mailto:jm@landedstar.com">jm@landedstar.com</a>, <a href="https://twitter.com/landedstar">@landedstar</a>, <a href="https://github.com/jmcguire/rpg-toolkit-website">Find this code on GitHub</a></p>
+</footer>
 <script>
 (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
 function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -133,12 +148,14 @@ ga('create','UA-42761539-5','auto');ga('send','pageview');
       title=tool_config.title,
       author=tool_config.copyright['author'],
       author_url=author_url,
-      source_title=ool_config.copyright['title']
+      source_title=tool_config.copyright['title'],
       source_url=tool_config.copyright['url'],
-      result_list="<li>" + result_list.join("</li><li>") + "</li>"
+      result_list="<li>" + "</li><li>".join(result_list) + "</li>"
     )
 
 
 if __name__ == "__main__": 
+  logging.basicConfig(level=logging.WARNING)
   app = web.application(urls, globals())
   app.run() 
+

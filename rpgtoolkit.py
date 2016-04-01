@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-rpg-toolkit.py
+rpgtoolkit.py
 
 Generate a random webpage from a config file.
 
@@ -34,6 +34,7 @@ class ToolConfig:
 
   def load_config(self, config_file):
     """load the config file into the static config variable, but only once"""
+
     if not os.path.isfile(config_file):
       sys.exit("config file: %s is not a file" % config_file)
 
